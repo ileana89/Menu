@@ -37,20 +37,8 @@ public class Menuileana
                System.out.println( "PARA PODER EJECUTAR LA OPCIÓN LEER 1 CADENA Y 2 NUMEROS E IMPRIMIR EL RANGO QUE HAY ENTRE INICIO Y FIN: DEBERAS OPRIMIR EN TU TECLADO EL NUMERO 4, DESPUES LE DAS ENTER Y ESCRIBES LA PALABRA QUE DESEAS LEER , LE DAS OTRO ENTER,  Y APARECERA EL RANGO QUE HAY ENTRE EL INICIO Y FIN, Y LISTO " );
                System.out.println( "PARA PODER EJECUTAR LA OPCION LEER 1 CADENA Y 2 NUMEROS E IMPRIMIR EL RANGO QUE HAY ENTRE FIN E INICIO: DEBERAS OPRIMIR EN TU TECLADO EL NUMERO 5, DESPUES LE DAS ENTER Y ESCRIBES LA PALABRA QUE DESEAS LEER , LE DAS OTRO ENTER,  Y APARECERA EL RANGO QUE HAY ENTRE EL FIN Y EL INICIO, Y LISTO");
                break;  
-               
-              
-           case 2:
-               String palabra = lectura.next();
-            
-               for (int i = palabra.length()-1;i >= 0;i --)
-               {
-               char c=palabra.charAt(i);
-               System.out.print(c);
-               }
-               break;    
-               
+                             
+      }
     }
-}
-    
 }
 
